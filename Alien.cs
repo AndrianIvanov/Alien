@@ -109,12 +109,5 @@ namespace GameVersion1
                 return null;
             }
         }
-
-        public void ProgressTime()
-        {
-            if (this.reloadTime > this.reloadTimer) { this.reloadTime = 0; }
-            this.reloadTime++;
-        }
-        
     }
 }
