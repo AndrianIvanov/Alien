@@ -89,6 +89,14 @@ namespace GameVersion1
             }
             return null;
         }
+        
+                static void AlienHitSound()
+        {
+            if (true)
+            {
+                Console.Beep(400, 100);
+            } 
+        }
 
         static void AlienHitSound()
         {
