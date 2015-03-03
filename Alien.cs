@@ -97,17 +97,5 @@ namespace GameVersion1
                 Console.Beep(400, 100);
             } 
         }
-
-        public Projectile Fire()
-        {
-            if (this.reloadTime == this.reloadTimer)
-            {
-                return new Projectile(x+1,y, 1);
-            }
-            else
-            {
-                return null;
-            }
-        }
     }
 }
